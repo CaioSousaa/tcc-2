@@ -2379,7 +2379,8 @@
                       "fill": "$body",
                       "content": "Bug",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -2414,7 +2415,8 @@
                       "fill": "$body",
                       "content": "Frontend",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -2449,7 +2451,8 @@
                       "fill": "$body",
                       "content": "UX",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -2484,7 +2487,8 @@
                       "fill": "$body",
                       "content": "Infra",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -2519,7 +2523,8 @@
                       "fill": "$body",
                       "content": "Urgente",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -5321,7 +5326,8 @@
                       "fill": "$body",
                       "content": "Bug",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -5356,7 +5362,8 @@
                       "fill": "$body",
                       "content": "Frontend",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -5391,7 +5398,8 @@
                       "fill": "$body",
                       "content": "UX",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -5426,7 +5434,8 @@
                       "fill": "$body",
                       "content": "Infra",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -5461,7 +5470,8 @@
                       "fill": "$body",
                       "content": "Urgente",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -8052,7 +8062,8 @@
                           "fill": "$ink",
                           "content": "Backlog",
                           "fontFamily": "DM Sans",
-                          "fontSize": 15
+                          "fontSize": 15,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -8090,7 +8101,8 @@
                           "fill": "$ink",
                           "content": "A fazer",
                           "fontFamily": "DM Sans",
-                          "fontSize": 15
+                          "fontSize": 15,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -8167,7 +8179,8 @@
                           "fill": "$ink",
                           "content": "Revisão",
                           "fontFamily": "DM Sans",
-                          "fontSize": 15
+                          "fontSize": 15,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -8205,7 +8218,8 @@
                           "fill": "$ink",
                           "content": "Concluído",
                           "fontFamily": "DM Sans",
-                          "fontSize": 15
+                          "fontSize": 15,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -8660,7 +8674,8 @@
                       "fill": "$body",
                       "content": "Bug",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -8695,7 +8710,8 @@
                       "fill": "$body",
                       "content": "Frontend",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -8730,7 +8746,8 @@
                       "fill": "$body",
                       "content": "UX",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -8765,7 +8782,8 @@
                       "fill": "$body",
                       "content": "Infra",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -8800,7 +8818,8 @@
                       "fill": "$body",
                       "content": "Urgente",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -12229,7 +12248,8 @@
                       "fill": "$body",
                       "content": "Bug",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -12264,7 +12284,8 @@
                       "fill": "$body",
                       "content": "Frontend",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -12299,7 +12320,8 @@
                       "fill": "$body",
                       "content": "UX",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -12334,7 +12356,8 @@
                       "fill": "$body",
                       "content": "Infra",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -12369,7 +12392,8 @@
                       "fill": "$body",
                       "content": "Urgente",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -15578,7 +15602,8 @@
                       "fill": "$body",
                       "content": "Bug",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -15613,7 +15638,8 @@
                       "fill": "$body",
                       "content": "Frontend",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -15648,7 +15674,8 @@
                       "fill": "$body",
                       "content": "UX",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -15683,7 +15710,8 @@
                       "fill": "$body",
                       "content": "Infra",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -15718,7 +15746,8 @@
                       "fill": "$body",
                       "content": "Urgente",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -18848,7 +18877,8 @@
                       "fill": "$body",
                       "content": "Bug",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -18883,7 +18913,8 @@
                       "fill": "$body",
                       "content": "Frontend",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -18918,7 +18949,8 @@
                       "fill": "$body",
                       "content": "UX",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -18953,7 +18985,8 @@
                       "fill": "$body",
                       "content": "Infra",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -18988,7 +19021,8 @@
                       "fill": "$body",
                       "content": "Urgente",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -22762,7 +22796,8 @@
                       "fill": "$body",
                       "content": "Bug",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -22797,7 +22832,8 @@
                       "fill": "$body",
                       "content": "Frontend",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -22832,7 +22868,8 @@
                       "fill": "$body",
                       "content": "UX",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -22867,7 +22904,8 @@
                       "fill": "$body",
                       "content": "Infra",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -22902,7 +22940,8 @@
                       "fill": "$body",
                       "content": "Urgente",
                       "fontFamily": "DM Sans",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 }

@@ -5,13 +5,15 @@ import { useRouter } from "next/navigation";
 import { useAuth } from "@/contexts/AuthContext";
 import { FullPageSpinner } from "@/components/ui/Spinner";
 
-export default function Home() {
+/** Redireciona usuários já autenticados (sessão persistida) para os quadros. */
+export function GuestOnly({ children }: { children: React.ReactNode }) {
   const { user, loading } = useAuth();
   const router = useRouter();
 
   useEffect(() => {
-    if (!loading) router.replace(user ? "/boards" : "/login");
+    if (!loading && user) router.replace("/boards");
   }, [loading, user, router]);
 
-  return <FullPageSpinner />;
+  if (loading || user) return <FullPageSpinner />;
+  return <>{children}</>;
 }

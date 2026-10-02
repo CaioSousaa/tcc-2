@@ -1,21 +1,21 @@
-import "dotenv/config";
 import "reflect-metadata";
-import express from "express";
-import cors from "cors";
+import { env } from "./config/env";
+import { createApp } from "./app";
 import { AppDataSource } from "./database";
+import { purgeExpiredSessions } from "./modules/auth/auth.service";
 
-const app = express();
-
-app.use(cors());
-app.use(express.json());
-
-const port = Number(process.env.PORT) || 3333;
+const PURGE_INTERVAL_MS = 60 * 60 * 1000;
 
 AppDataSource.initialize()
-  .then(() => {
+  .then(async () => {
     console.log("Database connected");
-    app.listen(port, () => {
-      console.log(`Server running on port ${port}`);
+    await purgeExpiredSessions();
+    setInterval(() => {
+      purgeExpiredSessions().catch((error) => console.error("Falha ao limpar sessões:", error));
+    }, PURGE_INTERVAL_MS).unref();
+
+    createApp().listen(env.PORT, () => {
+      console.log(`Server running on port ${env.PORT}`);
     });
   })
   .catch((error) => {

@@ -19,17 +19,17 @@
 
 ## Grade de execuções
 
-| #   | Metodologia                   | Modelo           |
-| --- | ----------------------------- | ---------------- |
-| 01  | Vibe Coding                   | Claude Haiku 4.5 |
-| 02  | Vibe Coding                   | Claude Sonnet 5  |
-| 03  | Vibe Coding                   | Claude Opus 5    |
-| 04  | SDD (Spec-Driven Development) | Claude Haiku 4.5 |
-| 05  | SDD (Spec-Driven Development) | Claude Sonnet 5  |
-| 06  | SDD (Spec-Driven Development) | Claude Opus 5    |
-| 07  | Self-Planning                 | Claude Haiku 4.5 |
-| 08  | Self-Planning                 | Claude Sonnet 5  |
-| 09  | Self-Planning                 | Claude Opus 5    |
+| #   | Metodologia                   | Modelo            |
+| --- | ----------------------------- | ----------------- |
+| 01  | Vibe Coding                   | Claude Haiku 4.5  |
+| 02  | Vibe Coding                   | Claude Sonnet 5.5 |
+| 03  | Vibe Coding                   | Claude Opus 5.5   |
+| 04  | SDD (Spec-Driven Development) | Claude Haiku 4.5  |
+| 05  | SDD (Spec-Driven Development) | Claude Sonnet 5.5 |
+| 06  | SDD (Spec-Driven Development) | Claude Opus 5.5   |
+| 07  | Self-Planning                 | Claude Haiku 4.5  |
+| 08  | Self-Planning                 | Claude Sonnet 5.5 |
+| 09  | Self-Planning                 | Claude Opus 5.5   |
 
 ## Critérios — Fidelidade ao protótipo
 
@@ -106,9 +106,9 @@ Cada tela recebe nota de 0 a 2 em três dimensões: **0** divergente · **1** pa
 
 **Nota de fidelidade da execução:** 22,50% — **Não fiel**
 
-### Execução 02 — Vibe Coding + Claude Sonnet 5
+### Execução 02 — Vibe Coding + Claude Sonnet 5.5
 
-**Data:** 04/09/2026
+**Data:** 04/10/2026
 
 **A) Auditoria funcional**
 
@@ -152,9 +152,9 @@ Cada tela recebe nota de 0 a 2 em três dimensões: **0** divergente · **1** pa
 
 **Nota de fidelidade da execução:** 54,17% — **Parcialmente fiel**
 
-### Execução 03 — Vibe Coding + Claude Opus 5
+### Execução 03 — Vibe Coding + Claude Opus 5.5
 
-**Data:** 05/09/2026
+**Data:** 05/10/2026
 
 **A) Auditoria funcional**
 
@@ -242,7 +242,7 @@ Cada tela recebe nota de 0 a 2 em três dimensões: **0** divergente · **1** pa
 
 **Nota de fidelidade da execução:** 17,50% — **Não fiel**
 
-### Execução 05 — SDD (Spec-Driven Development) + Claude Sonnet 5
+### Execução 05 — SDD (Spec-Driven Development) + Claude Sonnet 5.5
 
 **A) Auditoria funcional**
 
@@ -286,7 +286,7 @@ Cada tela recebe nota de 0 a 2 em três dimensões: **0** divergente · **1** pa
 
 **Nota de fidelidade da execução:** 81,67% — **Fiel**
 
-### Execução 06 — SDD (Spec-Driven Development) + Claude Opus 5
+### Execução 06 — SDD (Spec-Driven Development) + Claude Opus 5.5
 
 **A) Auditoria funcional**
 
@@ -374,7 +374,7 @@ Cada tela recebe nota de 0 a 2 em três dimensões: **0** divergente · **1** pa
 
 **Nota de fidelidade da execução:** 38,33% — **Não fiel**
 
-### Execução 08 — Self-Planning + Claude Sonnet 5
+### Execução 08 — Self-Planning + Claude Sonnet 5.5
 
 **A) Auditoria funcional**
 
@@ -418,7 +418,7 @@ Cada tela recebe nota de 0 a 2 em três dimensões: **0** divergente · **1** pa
 
 **Nota de fidelidade da execução:** 77,50% — **Fiel**
 
-### Execução 09 — Self-Planning + Claude Opus 5
+### Execução 09 — Self-Planning + Claude Opus 5.5
 
 **A) Auditoria funcional**
 
@@ -464,14 +464,14 @@ Cada tela recebe nota de 0 a 2 em três dimensões: **0** divergente · **1** pa
 
 ## Quadro-resumo consolidado
 
-| Execução                  | Taxa de aprovação | CC média | Fidelidade |
-| ------------------------- | ----------------- | -------- | ---------- |
-| Vibe Coding+Haiku 4.5     | 30%               | 1,54     | 22,50%     |
-| Vibe Coding+Sonnet 5      | 40%               | 1,52     | 54,17%     |
-| Vibe Coding+Opus 5        | 60%               | 1,48     | 82,50%     |
-| SDD (Spec-Driv)+Haiku 4.5 | 50%               | 1,43     | 17,50%     |
-| SDD (Spec-Driv)+Sonnet 5  | 70%               | 1,56     | 81,67%     |
-| SDD (Spec-Driv)+Opus 5    | 100%              | 1,42     | 94,17%     |
-| Self-Planning+Haiku 4.5   | 60%               | 1,66     | 38,33%     |
-| Self-Planning+Sonnet 5    | 70%               | 1,40     | 77,50%     |
-| Self-Planning+Opus 5      | 80%               | 1,36     | 86,67%     |
+| Execução                   | Taxa de aprovação | CC média | Fidelidade |
+| -------------------------- | ----------------- | -------- | ---------- |
+| Vibe Coding+Haiku 4.5      | 30%               | 1,54     | 22,50%     |
+| Vibe Coding+Sonnet 5.5     | 40%               | 1,52     | 54,17%     |
+| Vibe Coding+Opus 5.5       | 60%               | 1,48     | 82,50%     |
+| SDD (Spec-Driv)+Haiku 4.5  | 50%               | 1,43     | 17,50%     |
+| SDD (Spec-Driv)+Sonnet 5.5 | 70%               | 1,56     | 81,67%     |
+| SDD (Spec-Driv)+Opus 5.5   | 100%              | 1,42     | 94,17%     |
+| Self-Planning+Haiku 4.5    | 60%               | 1,66     | 38,33%     |
+| Self-Planning+Sonnet 5.5   | 70%               | 1,40     | 77,50%     |
+| Self-Planning+Opus 5.5     | 80%               | 1,36     | 86,67%     |

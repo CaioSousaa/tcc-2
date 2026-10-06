@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+/* Design tokens from the Kanbo prototype (protoripo.pen). */
+:root {
+  --navy: #1d3557;
+  --page-bg: #eef0f4;
+  --surface: #ffffff;
+  --surface-alt: #f6f7fa;
+  --border: #e2e5eb;
+  --ink: #1a1f2c;
+  --body: #3f4756;
+  --muted: #6b7280;
+  --placeholder: #9aa1ad;
+  --red: #c8423a;
+  --red-bg: #fbe9e7;
+  --red-dark: #a32f29;
+  --blue: #2f6fb5;
+  --blue-bg: #e6eff9;
+  --green: #2a8f6a;
+  --green-bg: #e3f3ec;
+  --amber: #c98a1a;
+  --amber-text: #9a6a0c;
+  --amber-bg: #fbf0d9;
+  --purple: #7b5cbd;
+  --purple-bg: #efe9f8;
+  --slate: #6b7a8c;
+  --slate-bg: #eceff3;
+  --list-bg: #f4f5f8;
+  --chip-bg: #f1f2f5;
+  --track: #e4e6eb;
+  --dashed: #c5cad3;
+}
+
+@theme inline {
+  --color-navy: var(--navy);
+  --color-page-bg: var(--page-bg);
+  --color-surface: var(--surface);
+  --color-surface-alt: var(--surface-alt);
+  --color-border: var(--border);
+  --color-ink: var(--ink);
+  --color-body: var(--body);
+  --color-muted: var(--muted);
+  --color-placeholder: var(--placeholder);
+  --color-red: var(--red);
+  --color-red-bg: var(--red-bg);
+  --color-red-dark: var(--red-dark);
+  --color-blue: var(--blue);
+  --color-blue-bg: var(--blue-bg);
+  --color-green: var(--green);
+  --color-green-bg: var(--green-bg);
+  --color-amber: var(--amber);
+  --color-amber-text: var(--amber-text);
+  --color-amber-bg: var(--amber-bg);
+  --color-purple: var(--purple);
+  --color-purple-bg: var(--purple-bg);
+  --color-slate: var(--slate);
+  --color-slate-bg: var(--slate-bg);
+  --color-list-bg: var(--list-bg);
+  --color-chip-bg: var(--chip-bg);
+  --color-track: var(--track);
+  --color-outline-strong: var(--dashed);
+  --font-sans: var(--font-dm-sans);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+body {
+  background: var(--page-bg);
+  color: var(--ink);
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--placeholder);
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: #c5cad3 transparent;
+}

@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #1D3557;
+  --ink: #1A1F2C;
+  --blue: #2F6FB5;
+  --surface: #FFFFFF;
+  --surface-alt: #F6F7FA;
+  --page-bg: #EEF0F4;
+  --border: #E2E5EB;
+  --body: #3F4756;
+  --muted: #6B7280;
+  --placeholder: #9AA1AD;
+  --red: #C8423A;
+  --red-bg: #FBE9E7;
+  --red-dark: #A32F29;
+  --blue-bg: #E6EFF9;
+  --green: #2A8F6A;
+  --green-bg: #E3F3EC;
+  --amber: #C98A1A;
+  --amber-text: #9A6A0C;
+  --amber-bg: #FBF0D9;
+  --purple: #7B5CBD;
+  --purple-bg: #EFE9F8;
+  --slate: #6B7A8C;
+}
+
+@theme inline {
+  --color-navy: var(--navy);
+  --color-ink: var(--ink);
+  --color-blue: var(--blue);
+  --color-surface: var(--surface);
+  --color-surface-alt: var(--surface-alt);
+  --color-page-bg: var(--page-bg);
+  --color-border: var(--border);
+  --color-body: var(--body);
+  --color-muted: var(--muted);
+  --color-placeholder: var(--placeholder);
+  --color-red: var(--red);
+  --color-red-bg: var(--red-bg);
+  --color-red-dark: var(--red-dark);
+  --color-blue-bg: var(--blue-bg);
+  --color-green: var(--green);
+  --color-green-bg: var(--green-bg);
+  --color-amber: var(--amber);
+  --color-amber-text: var(--amber-text);
+  --color-amber-bg: var(--amber-bg);
+  --color-purple: var(--purple);
+  --color-purple-bg: var(--purple-bg);
+  --color-slate: var(--slate);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--page-bg);
+  color: var(--body);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  height: 100%;
+}

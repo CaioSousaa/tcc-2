@@ -1,6 +1,6 @@
 # Prompts utilizados nas execuções
 
-Este arquivo reúne os prompts usados em cada uma das nove execuções do estudo. Cada metodologia teve uma sequência própria de prompts, aplicada de forma idêntica aos três modelos avaliados (Claude Haiku 4.5, Claude Sonnet 5 e Claude Opus 5), em sessões separadas e na ordem em que aparecem abaixo.
+Este arquivo reúne os prompts usados em cada uma das nove execuções do estudo. Cada metodologia teve uma sequência própria de prompts, aplicada de forma idêntica aos três modelos avaliados (Claude Haiku 4.5, Claude Sonnet 5.5 e Claude Opus 5.5), em sessões separadas e na ordem em que aparecem abaixo.
 
 - **Vibe Coding:** projetos `VIBECODE-HAIKU`, `VIBECODE-SONNET` e `VIBECODE-OPUS`
 - **SDD (Spec-Driven Development):** projetos `SDD-HAIKU`, `SDD-SONNET` e `SDD-OPUS`

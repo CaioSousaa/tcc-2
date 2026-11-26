@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+/* Tokens extraídos do protótipo (protoripo.pen) */
+@theme {
+  --color-navy: #1d3557;
+  --color-navy-hover: #16294a;
+  --color-page: #eef0f4;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f6f7fa;
+  --color-list: #f4f5f8;
+  --color-chip: #f1f2f5;
+  --color-track: #e4e6eb;
+  --color-border: #e2e5eb;
+  --color-dash: #c5cad3;
+  --color-checkbox: #b8bec9;
+  --color-ink: #1a1f2c;
+  --color-body: #3f4756;
+  --color-muted: #6b7280;
+  --color-placeholder: #9aa1ad;
+  --color-red: #c8423a;
+  --color-red-bg: #fbe9e7;
+  --color-red-dark: #a32f29;
+  --color-red-border: #f0c9c5;
+  --color-blue: #2f6fb5;
+  --color-blue-bg: #e6eff9;
+  --color-green: #2a8f6a;
+  --color-green-bg: #e3f3ec;
+  --color-amber: #c98a1a;
+  --color-amber-text: #9a6a0c;
+  --color-amber-bg: #fbf0d9;
+  --color-purple: #7b5cbd;
+  --color-purple-bg: #efe9f8;
+  --color-slate: #6b7a8c;
+
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
+}
+
+html,
+body {
+  background: var(--color-page);
+  color: var(--color-ink);
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: var(--color-blue-bg);
+}
+
+/* Barra de rolagem discreta para a área horizontal do quadro */
+.board-scroll::-webkit-scrollbar {
+  height: 10px;
+  width: 8px;
+}
+.board-scroll::-webkit-scrollbar-thumb {
+  background: #cfd4dc;
+  border-radius: 999px;
+}
+.board-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}

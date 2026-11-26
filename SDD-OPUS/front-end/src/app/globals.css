@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-dm-sans), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
+}
+
+@theme {
+  --color-navy: #1d3557;
+  --color-navy-dark: #162a45;
+  --color-page: #eef0f4;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f6f7fa;
+  --color-filter-bar: #fbfbfd;
+  --color-list: #f4f5f8;
+  --color-chip: #f1f2f5;
+  --color-track: #e4e6eb;
+  --color-line: #e2e5eb;
+  --color-line-strong: #c5cad3;
+  --color-check: #b8bec9;
+  --color-danger-line: #f0c9c5;
+  --color-ink: #1a1f2c;
+  --color-body: #3f4756;
+  --color-muted: #6b7280;
+  --color-hint: #9aa1ad;
+  --color-danger: #c8423a;
+  --color-danger-bg: #fbe9e7;
+  --color-danger-dark: #a32f29;
+  --color-info: #2f6fb5;
+  --color-info-bg: #e6eff9;
+  --color-success: #2a8f6a;
+  --color-success-bg: #e3f3ec;
+  --color-warning: #c98a1a;
+  --color-warning-text: #9a6a0c;
+  --color-warning-bg: #fbf0d9;
+  --shadow-modal: 0 24px 64px #00000040;
+}
+
+body {
+  background: var(--color-page);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-hint);
+}
+
+dialog::backdrop {
+  background: rgb(26 31 44 / 0.56);
+}

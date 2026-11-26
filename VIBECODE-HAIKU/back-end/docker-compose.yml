@@ -1,0 +1,12 @@
+name: vibecode-haiku
+
+services:
+  database:
+    container_name: vibecode_haiku_db
+    image: bitnami/postgresql:latest
+    ports:
+      - "${POSTGRES_PORT}:5432"
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}

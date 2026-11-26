@@ -1,0 +1,3 @@
+export const BOARD_COLORS = ["#1D3557", "#2F6FB5", "#2A8F6A", "#C98A1A", "#7B5CBD"];
+export const LABEL_COLORS = ["#C8423A", "#2F6FB5", "#2A8F6A", "#C98A1A", "#7B5CBD", "#6B7A8C"];
+export const DEFAULT_BOARD_COLOR = BOARD_COLORS[0];
